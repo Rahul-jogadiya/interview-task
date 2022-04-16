@@ -12,10 +12,12 @@ html {
 
 :root {
   --navColor: rgb(0, 178, 248);
+  --lightColor: white;
 }
 
 a {
   text-decoration: none;
+  color: var(--lightColor);
 }
 
 li {
@@ -24,7 +26,6 @@ li {
 
 header {
   background: var(--navColor);
-  height: 5rem;
   width: 100%;
 }
 
@@ -32,4 +33,31 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 4.5rem;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links > li {
+  padding: 2rem;
+}
+
+.links > li a {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li .btn {
+  background: var(--lightColor);
+  border-radius: 0.2rem;
 }

@@ -9,20 +9,26 @@ const Header = () => {
         <div className="logo">entastico!</div>
         <div className="links">
           <li>
-            <a href="#">Join Now</a>{" "}
+            <a href="#" className="btn">
+              Join Now
+            </a>{" "}
           </li>
           <li>
-            <a href="#">Live Video</a>{" "}
+            <a href="#" className="btn">
+              Live Video
+            </a>{" "}
           </li>
-          <li>
-            <AiOutlineSearch />
-          </li>
-          <li>
-            <AiFillQuestionCircle />
-          </li>
-          <li>
-            <FaUserAlt />
-          </li>
+          <div className="menu">
+            <li>
+              <AiOutlineSearch />
+            </li>
+            <li>
+              <AiFillQuestionCircle />
+            </li>
+            <li>
+              <FaUserAlt />
+            </li>
+          </div>
         </div>
       </nav>
     </header>
